@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.program.hyperion.screenshot" name="Hyperion Grabber Screenshot" provider-name="lightberry" version="0.3.0">
+    <requires>
+		<import addon="xbmc.python" version="2.24.0" />
+	</requires>
+	<extension library="addon.py" point="xbmc.python.pluginsource">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux</platform>
+		<summary lang="en">Hyperion v4l grabber screenshot generator</summary>
+		<description lang="en">Plugin will take a screenshot using hyperion video4linux</description>
+		<license>GNU General Public License, v2</license>
+		<language />
+		<forum>https://github.com/LightberryEu/plugin.program.hyperion.screenshot/issues</forum>
+		<source>https://github.com/LightberryEu/plugin.program.hyperion.screenshot</source>
+		<email>lightberry@lightberry.eu</email>
+	</extension>
+</addon></addons>
