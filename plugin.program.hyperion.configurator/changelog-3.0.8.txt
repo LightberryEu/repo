@@ -1,0 +1,31 @@
+1.0.0 Initial Release
+1.0.1 Bug fixes + control image added + bottom/center configuration added
+1.1.0 Addon settings added to provide more setup options; APA102 added
+1.2.0 OSMC support added
+1.2.2 Added color order setting
+1.3.0 Plugin is now checking if hyperion is installed. If not, runs install commands (for OE only). Grabber priority changed to 900 - as per recent changes in hyperion code.
+1.4.0 Auto updater added..
+1.4.1 Fix for OSMC
+1.4.2 Removing hyperion installation for OSMC
+1.5.0 Color of video when grabber signal is off is now available in addon settings
+1.5.1 Color order setting fixed
+1.5.2 Fixing hyperion v4l2 priority (again) to 910
+1.6.0 Turn off leds (up to 150th) if GPIO lightberry is in use
+1.7.0 Small bugfixes and fixed depth of scan area (now it is static 8% and 10%)
+1.7.1 V4l2 crop default values adjusted for HDMI 4.0 kit
+1.7.2 Added BRG color order
+1.8.0 Lighberry XL added to led device type
+1.8.1 Bugfix of IOError when hyperion.config.json is not present
+1.8.1 Lighberry XL color order fix
+1.8.2 Bugfix filling unused leds and hardcoded repo address
+1.9.0 Adjust to new hyperion deafult config folder /etc/hyperion
+1.9.1 Adjust to new hyperion grabber priority logic
+3.0.0 Refactoring
+3.0.1 Bugfixes
+3.0.2 Bugfixes
+3.0.3 Bugfixes
+3.0.4 Bugfixes
+3.0.5 Bugfixes
+3.0.6 Bugfixes
+3.0.7 Fixed hyperion install
+3.0.8 Fixed msg when rainbow wasn't visible
